@@ -1,0 +1,102 @@
+{
+  "cutoff": "2036-09-30T09:00Z",
+  "task_count": 9,
+  "tasks": [
+    {
+      "task_id": "ST-101",
+      "title": "Seal sample freezer",
+      "team": "Facilities",
+      "priority": 1,
+      "declared_state": "OPEN",
+      "depends_on": [
+        "ST-102"
+      ],
+      "status": "READY"
+    },
+    {
+      "task_id": "ST-103",
+      "title": "Archive antenna logs",
+      "team": "Science",
+      "priority": 1,
+      "declared_state": "OPEN",
+      "depends_on": [
+        "ST-102"
+      ],
+      "status": "READY"
+    },
+    {
+      "task_id": "ST-108",
+      "title": "Return medical kit",
+      "team": "Logistics",
+      "priority": 2,
+      "declared_state": "OPEN",
+      "depends_on": [
+        "ST-107",
+        "ST-102"
+      ],
+      "status": "READY"
+    },
+    {
+      "task_id": "ST-109",
+      "title": "Power down wet lab",
+      "team": "Facilities",
+      "priority": 1,
+      "declared_state": "OPEN",
+      "depends_on": [
+        "ST-101"
+      ],
+      "status": "BLOCKED"
+    },
+    {
+      "task_id": "ST-104",
+      "title": "Drain greywater loop",
+      "team": "Utilities",
+      "priority": 2,
+      "declared_state": "OPEN",
+      "depends_on": [
+        "ST-105"
+      ],
+      "status": "CYCLE"
+    },
+    {
+      "task_id": "ST-105",
+      "title": "Isolate circulation pump",
+      "team": "Utilities",
+      "priority": 3,
+      "declared_state": "OPEN",
+      "depends_on": [
+        "ST-104"
+      ],
+      "status": "CYCLE"
+    },
+    {
+      "task_id": "ST-106",
+      "title": "Lock drone hangar",
+      "team": "Logistics",
+      "priority": 1,
+      "declared_state": "OPEN",
+      "depends_on": [
+        "ST-999"
+      ],
+      "status": "ORPHANED"
+    },
+    {
+      "task_id": "ST-102",
+      "title": "Verify cryogen ledger",
+      "team": "Science",
+      "priority": 2,
+      "declared_state": "DONE",
+      "depends_on": [],
+      "status": "DONE"
+    },
+    {
+      "task_id": "ST-107",
+      "title": "File weather digest",
+      "team": "Science",
+      "priority": 3,
+      "declared_state": "DONE",
+      "depends_on": [],
+      "status": "DONE"
+    }
+  ]
+}
