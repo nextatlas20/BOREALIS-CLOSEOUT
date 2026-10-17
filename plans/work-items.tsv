@@ -1,0 +1,16 @@
+task_id	title	team	priority	state	depends_on	revision	updated_at
+ST-101	Seal sample freezer	Facilities	1	OPEN	ST-102	1	2036-09-28T08:00Z
+ST-102	Verify cryogen ledger	Science	2	DONE	-	1	2036-09-27T14:30Z
+ST-103	Archive antenna logs	Science	3	DONE	-	1	2036-09-20T09:00Z
+ST-104	Drain greywater loop	Utilities	2	OPEN	ST-105	1	2036-09-29T07:15Z
+ST-105	Isolate circulation pump	Utilities	3	OPEN	ST-104	1	2036-09-29T07:20Z
+ST-106	Lock drone hangar	Logistics	1	OPEN	ST-999	1	2036-09-29T10:00Z
+ST-107	File weather digest	Science	3	DONE	-	1	2036-09-26T18:00Z
+ST-108	Return medical kit	Logistics	2	OPEN	ST-107,ST-102	1	2036-09-30T05:45Z
+ST-109	Power down wet lab	Facilities	1	OPEN	ST-101	1	2036-09-30T06:10Z
+ST-103	Archive antenna logs	Science	1	OPEN	ST-102	2	2036-09-30T06:30Z
+ST-108	Return obsolete medical kit	Logistics	4	OPEN	ST-107	0	2036-09-30T06:31Z
+st-110	Lower storm shutters	Facilities	1	OPEN	-	1	2036-09-30T07:00Z
+ST-111	Freeze fuel account	Finance	2	OPEN	-	1	2036-09-31T08:00Z
+ST-112	Close satellite uplink	Comms	2	OPEN	-	1	2036-10-01T00:01Z
+ST-113	Repack emergency sled	Logistics	02	OPEN	-	1	2036-09-30T08:00Z
